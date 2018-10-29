@@ -1,0 +1,152 @@
+body {
+    background-image: url('./images/bg2.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#customers {
+    font-family: 'Avenir LT Std', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid rgba(252, 252, 252, 0.26);
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #b8b7b75e;}
+
+#customers tr:hover {background-color: rgba(209, 238, 184, 0.459);color: white;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgba(243, 194, 217, 0.26);
+    color: white;
+}
+#details {
+    font-family: 'Avenir LT Std', sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+#details td, #details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+#details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #f7e8e88c;
+    color: rgb(29, 24, 24);
+}
+.empDashboard {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.input-file1 {
+    width: 260px;
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+    float: left;
+    color:white;
+    margin: 7px;
+    border: 1px solid #b8b0b0;
+}
+.input-file2 {
+    font-size: 15px;
+    background-color: transparent;
+    padding: 7px;
+    float: left;
+    margin: 7px;
+    color: white;
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+}
+.companyName {
+    color: rgb(218, 221, 216);
+    font-family: 'billabong';
+    font-size: 2.2rem;
+    font-weight: 100;
+    margin: 1rem 0;
+    letter-spacing: 4px;
+    /* border : 1px solid #d3d3d3; */
+    padding: 1px;
+    /* background-image: url('../images/headerbg1.jpg');
+    background-attachment: fixed;
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-repeat: repeat; */
+}
+.logo1 {
+    width: 18%;
+    padding: 0px;
+    margin: 0px;
+    /* border : 1px solid #d3d3d3; */
+    float: left;
+    justify-content: center;
+}
+.logo-spinning {
+    width: 200px;
+    padding: 0px;
+    margin-top: -10px;
+    position: relative;
+    margin-bottom: -5px;
+    height: auto;
+    /* border: 1px solid #d3d3d3; */
+}
+.logo-spinning:hover {
+    animation: logo-spinning-spin infinite 5s linear;
+    background-color: red;
+    background-image: radial-gradient(circle, rgb(250, 9, 9), rgb(17, 245, 17), blue);
+    border-radius: 50%;
+}
+@keyframes logo-spinning-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(1000deg);
+    }
+  }
+.mainbody {
+    clear: both;
+    
+    border: 1px solid #d3d3d3;
+}
+.hrLine {
+    clear: left;
+}
+@font-face {
+    font-family: 'billabong';
+    src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix") format('embedded-opentype'), 
+    url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff") format('woff'), 
+    url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf") format('truetype'), 
+    url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular") format('svg');
+
+}
+
+.totalDetals {
+    color: white;
+}
+.shortTableDetails {
+    margin: 4px;
+    font-family:  'Arial Narrow', ;
+    font-weight: 100;
+}
