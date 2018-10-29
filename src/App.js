@@ -16,15 +16,6 @@ class App extends Component
     }
       
 }
-renderHeader()
-{
-
-}
-filter(ele)
-{
-  
-
-}
 csvJSON(csvf)
 {
   var reader = new FileReader();
